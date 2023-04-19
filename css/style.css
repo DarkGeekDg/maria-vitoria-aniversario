@@ -14,10 +14,17 @@ body::-webkit-scrollbar{
 
 body {
     background-color: #6BC7E2;
-    min-height: 100vh;
+    height: 100vh;
+       
     overflow-x: hidden;
     display: flex;
     flex-direction: column;
+}
+
+@media(max-width: 400px){
+    body {
+        min-height: 30vh;
+    }
 }
 
 .fundo-nuvens {
@@ -25,18 +32,21 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    
+    min-height: 100vh;
 }
 
-
+@media(max-width: 400px){
+    .fundo-nuvens {
+        min-height: 30vh;
+    }
+}
 
 .fundo-nuvens img {
     position: absolute;
     top:0;
     bottom: 0;
     width: 100%;
-    height: auto;
+    
     pointer-events: none;
     
 }

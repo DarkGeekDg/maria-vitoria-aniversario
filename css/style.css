@@ -53,6 +53,12 @@ body {
     }
 }
 
+@media (max-width:350px){
+    body, .fundo-nuvens{
+        min-height: 20vh;
+    }
+}
+
 
 
 

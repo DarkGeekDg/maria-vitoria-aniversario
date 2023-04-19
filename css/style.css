@@ -35,6 +35,12 @@ body {
     min-height: 100vh;
 }
 
+
+@media (max-width:600px){
+    body, .fundo-nuvens{
+        min-height: 25vh;
+    }
+}
 @media (max-width:500px){
     body, .fundo-nuvens{
         min-height: 28vh;

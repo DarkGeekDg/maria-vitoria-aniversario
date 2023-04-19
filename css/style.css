@@ -22,47 +22,6 @@ body {
 }
 
 
-@media(max-width:415px){
-    body .fundo-nuvens{
-        min-height: 22vh;
-    }
-}
-
-@media(max-width:413px){
-    body .fundo-nuvens{
-        min-height: 21vh;
-    }
-
-}
-
-@media(max-width:400px){
-    body .fundo-nuvens{
-        min-height: 32vh;
-    }
-
-}
-
-@media(max-width:395px){
-    body .fundo-nuvens{
-        min-height: 22vh;
-    }
-
-}
-
-@media(max-width:376px){
-    body .fundo-nuvens{
-        min-height: 27vh;
-    }
-}
-
-@media(max-width:365px){
-    body .fundo-nuvens{
-        min-height: 23vh;
-    }
-
-}
-
-
 
 
 
@@ -76,7 +35,11 @@ body {
     min-height: 100vh;
 }
 
-
+@media (max-width : 480px){
+    .fundo-nuvens{
+        min-height: 32vh;
+    }
+}
 
 
 

@@ -21,11 +21,57 @@ body {
     flex-direction: column;
 }
 
-@media(max-width: 400px){
-    body {
-        min-height: 30vh;
+
+
+@media(max-width: 1280px){
+    body .fundo-nuvens {
+        min-height: 78vh;
     }
 }
+
+@media(max-width: 912px){
+    body .fundo-nuvens {
+        min-height: 32vh;
+    }
+}
+
+@media(max-width: 768px){
+    body .fundo-nuvens {
+        min-height: 36vh;
+    }
+}
+
+
+
+@media(max-width: 540px){
+    body .fundo-nuvens {
+        min-height: 36vh;
+    }
+}
+
+@media(max-width: 450px){
+    body .fundo-nuvens {
+        min-height: 22vh;
+    }
+}
+
+
+
+@media(max-width: 412px){
+    body .fundo-nuvens {
+        min-height: 20vh;
+    }
+}
+
+
+
+
+@media(max-width: 360px){
+    body .fundo-nuvens {
+        min-height: 23vh;
+    }
+}
+
 
 .fundo-nuvens {
     position:relative;
@@ -35,11 +81,6 @@ body {
     min-height: 100vh;
 }
 
-@media(max-width: 400px){
-    .fundo-nuvens {
-        min-height: 30vh;
-    }
-}
 
 .fundo-nuvens img {
     position: absolute;

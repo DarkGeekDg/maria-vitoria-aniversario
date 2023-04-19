@@ -80,6 +80,29 @@ body {
     }
 }
 
+@media (max-width : 280px){
+    body, .fundo-nuvens{
+        min-height: 23vh;
+    }
+}
+
+@media (max-width : 260px){
+    body, .fundo-nuvens{
+        min-height: 22vh;
+    }
+}
+
+@media (max-width : 240px){
+    body, .fundo-nuvens{
+        min-height: 20vh;
+    }
+}
+
+@media (max-width : 220px){
+    body, .fundo-nuvens{
+        min-height: 18vh;
+    }
+}
 
 
 .fundo-nuvens img {

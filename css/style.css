@@ -35,110 +35,13 @@ body {
     min-height: 100vh;
 }
 
-@media (max-width : 600px){
+@media (max-width:500px){
     body, .fundo-nuvens{
-        min-height: 49vh;
+        min-height: 28vh;
     }
 }
 
-@media (max-width : 580px){
-    body, .fundo-nuvens{
-        min-height: 48vh;
-    }
-}
 
-@media (max-width : 560px){
-    body, .fundo-nuvens{
-        min-height: 47vh;
-    }
-}
-
-@media (max-width : 540px){
-    body, .fundo-nuvens{
-        min-height: 47vh;
-    }
-}
-
-@media (max-width : 520px){
-    body, .fundo-nuvens{
-        min-height: 44vh;
-    }
-}
-
-@media (max-width : 500px){
-    body, .fundo-nuvens{
-        min-height: 41vh;
-    }
-}
-
-@media (max-width : 480px){
-    body, .fundo-nuvens{
-        min-height: 40vh;
-    }
-}
-@media (max-width : 438px){
-    body, .fundo-nuvens{
-        min-height: 36vh;
-    }
-}
-
-@media (max-width : 415px){
-    body, .fundo-nuvens{
-        min-height: 35vh;
-    }
-}
-
-@media (max-width : 400px){
-    body, .fundo-nuvens{
-        min-height: 33vh;
-    }
-}
-
-@media (max-width : 380px){
-    body, .fundo-nuvens{
-        min-height: 30vh;
-    }
-}
-@media (max-width : 340px){
-    body, .fundo-nuvens{
-        min-height: 27vh;
-    }
-}
-
-@media (max-width : 320px){
-    body, .fundo-nuvens{
-        min-height: 26vh;
-    }
-}
-@media (max-width : 300px){
-    body, .fundo-nuvens{
-        min-height: 24vh;
-    }
-}
-
-@media (max-width : 280px){
-    body, .fundo-nuvens{
-        min-height: 23vh;
-    }
-}
-
-@media (max-width : 260px){
-    body, .fundo-nuvens{
-        min-height: 22vh;
-    }
-}
-
-@media (max-width : 240px){
-    body, .fundo-nuvens{
-        min-height: 20vh;
-    }
-}
-
-@media (max-width : 220px){
-    body, .fundo-nuvens{
-        min-height: 18vh;
-    }
-}
 
 
 .fundo-nuvens img {

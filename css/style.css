@@ -22,55 +22,50 @@ body {
 }
 
 
-
-@media(max-width: 1280px){
-    body .fundo-nuvens {
-        min-height: 78vh;
-    }
-}
-
-@media(max-width: 912px){
-    body .fundo-nuvens {
-        min-height: 32vh;
-    }
-}
-
-@media(max-width: 768px){
-    body .fundo-nuvens {
-        min-height: 36vh;
-    }
-}
-
-
-
-@media(max-width: 540px){
-    body .fundo-nuvens {
-        min-height: 36vh;
-    }
-}
-
-@media(max-width: 450px){
-    body .fundo-nuvens {
+@media(max-width:415px){
+    body .fundo-nuvens{
         min-height: 22vh;
     }
 }
 
+@media(max-width:413px){
+    body .fundo-nuvens{
+        min-height: 21vh;
+    }
 
+}
 
-@media(max-width: 412px){
-    body .fundo-nuvens {
-        min-height: 20vh;
+@media(max-width:400px){
+    body .fundo-nuvens{
+        min-height: 32vh;
+    }
+
+}
+
+@media(max-width:395px){
+    body .fundo-nuvens{
+        min-height: 22vh;
+    }
+
+}
+
+@media(max-width:376px){
+    body .fundo-nuvens{
+        min-height: 27vh;
     }
 }
 
-
-
-
-@media(max-width: 360px){
-    body .fundo-nuvens {
+@media(max-width:365px){
+    body .fundo-nuvens{
         min-height: 23vh;
     }
+
 }
+
+
+
+
+
 
 
 .fundo-nuvens {
@@ -80,6 +75,12 @@ body {
     align-items: center;
     min-height: 100vh;
 }
+
+
+
+
+
+
 
 
 .fundo-nuvens img {
@@ -105,4 +106,5 @@ body {
     color:black;
     
 }
+
 

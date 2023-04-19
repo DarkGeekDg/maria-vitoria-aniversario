@@ -36,14 +36,33 @@ body {
 }
 
 @media (max-width : 480px){
-    body{
-        overflow-x: hidden;
+    body, .fundo-nuvens{
+        min-height: 38vh;
     }
-    .fundo-nuvens{
+}
+@media (max-width : 438px){
+    body, .fundo-nuvens{
+        min-height: 36vh;
+    }
+}
+
+@media (max-width : 415px){
+    body, .fundo-nuvens{
+        min-height: 35vh;
+    }
+}
+
+@media (max-width : 400px){
+    body, .fundo-nuvens{
         min-height: 33vh;
     }
 }
 
+@media (max-width : 380px){
+    body, .fundo-nuvens{
+        min-height: 30vh;
+    }
+}
 
 
 

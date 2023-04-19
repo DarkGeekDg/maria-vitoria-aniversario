@@ -36,8 +36,11 @@ body {
 }
 
 @media (max-width : 480px){
+    body{
+        overflow-x: hidden;
+    }
     .fundo-nuvens{
-        min-height: 32vh;
+        min-height: 33vh;
     }
 }
 

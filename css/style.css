@@ -35,9 +35,45 @@ body {
     min-height: 100vh;
 }
 
+@media (max-width : 600px){
+    body, .fundo-nuvens{
+        min-height: 49vh;
+    }
+}
+
+@media (max-width : 580px){
+    body, .fundo-nuvens{
+        min-height: 48vh;
+    }
+}
+
+@media (max-width : 560px){
+    body, .fundo-nuvens{
+        min-height: 47vh;
+    }
+}
+
+@media (max-width : 540px){
+    body, .fundo-nuvens{
+        min-height: 47vh;
+    }
+}
+
+@media (max-width : 520px){
+    body, .fundo-nuvens{
+        min-height: 44vh;
+    }
+}
+
+@media (max-width : 500px){
+    body, .fundo-nuvens{
+        min-height: 41vh;
+    }
+}
+
 @media (max-width : 480px){
     body, .fundo-nuvens{
-        min-height: 38vh;
+        min-height: 40vh;
     }
 }
 @media (max-width : 438px){

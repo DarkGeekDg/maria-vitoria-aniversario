@@ -35,11 +35,20 @@ body {
     min-height: 100vh;
 }
 
-
+@media (max-width:900px){
+    body, .fundo-nuvens{
+        min-height: 48vmax;
+    }
+}
+@media (max-width:700px){
+    body, .fundo-nuvens{
+        min-height: 42vmax;
+    }
+}
 
 @media (max-width:500px){
     body, .fundo-nuvens{
-        min-height: 28vh;
+        min-height: 30vmax;
     }
 }
 @media (max-width:450px){

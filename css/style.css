@@ -22,8 +22,40 @@ body {
 }
 
 
+@media (max-width : 1025px) {
+    body .fundo-nuvens {
+        min-height: 63vh;
+    }
+} 
 
 
+
+@media (max-width : 690px) {
+    body .fundo-nuvens {
+        min-height: 32vh;
+    }
+} 
+
+
+@media (max-width : 415px) {
+    body .fundo-nuvens {
+        min-height: 22vh;
+    }
+    
+}
+
+@media (max-width : 395px) {
+    body .fundo-nuvens {
+        min-height: 24vh;
+    }
+} 
+
+
+@media (max-width : 380px) {
+    body .fundo-nuvens {
+        min-height: 22vh;
+    }
+}
 
 
 
@@ -35,38 +67,7 @@ body {
     min-height: 100vh;
 }
 
-@media (max-width:900px){
-    body, .fundo-nuvens{
-        min-height: 48vmax;
-    }
-}
-@media (max-width:700px){
-    body, .fundo-nuvens{
-        min-height: 42vmax;
-    }
-}
 
-@media (max-width:500px){
-    body, .fundo-nuvens{
-        min-height: 30vmax;
-    }
-}
-@media (max-width:450px){
-    body, .fundo-nuvens{
-        min-height: 25vh;
-    }
-}
-@media (max-width:400px){
-    body, .fundo-nuvens{
-        min-height: 23vh;
-    }
-}
-
-@media (max-width:350px){
-    body, .fundo-nuvens{
-        min-height: 20vh;
-    }
-}
 
 
 
@@ -84,15 +85,43 @@ body {
 .conteudo {
     position: relative;
     background-color: #ffffff;
-    padding: 150px;
+    padding: 200px;
+    
     
 }
 
 
-.texto p {
-    font-size: 2em;
+.conteudo p {
+    font-size: 1em;
     color:black;
+    text-indent: 2em;
+    font-weight: 600;
+    line-height:30px;
     
 }
+
+@media (max-width : 1025px) {
+    .conteudo {
+        padding: 30px;
+    }
+} 
+
+
+.img-polaroid {
+    width: 30%;
+    pointer-events: none;
+    padding: 10px;
+    
+}
+
+#maria-polaroid1, #maria-polaroid3 {
+    float: right;
+}
+
+#maria-polaroid2 {
+    float: left;
+    
+}
+
 
 

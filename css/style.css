@@ -15,7 +15,7 @@ body::-webkit-scrollbar{
 body {
     background-color: #6BC7E2;
     height: 100vh;
-       
+    min-width:100vw;
     overflow-x: hidden;
     display: flex;
     flex-direction: column;

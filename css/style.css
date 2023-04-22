@@ -93,9 +93,26 @@ body {
     }
 }
 
+@media screen and (max-width:1401px) {
+    .fundo-nuvens {
+        min-height: 88vh;
+    }
+}
 @media screen and (max-width:1370px){
     .fundo-nuvens {
         min-height:100vh;
+    }
+}
+
+@media screen and (max-width:1368px) and (max-height: 772px) {
+    .fundo-nuvens {
+        min-height: 85vh;
+    }
+}
+
+@media screen and (max-width:1310px) and (max-height: 772px) {
+    .fundo-nuvens {
+        min-height: 82vh;
     }
 }
 
@@ -105,9 +122,35 @@ body {
     }
 }
 
+
+
 @media screen and (max-width:1281px) and (max-height: 805px) {
     .fundo-nuvens {
         min-height: 78vh;
+    }
+}
+
+@media screen and (max-width:1230px) {
+    .fundo-nuvens {
+        min-height: 76vh;
+    }
+}
+
+@media screen and (max-width:1170px) {
+    .fundo-nuvens {
+        min-height: 72vh;
+    }
+}
+
+@media screen and (max-width:1130px) {
+    .fundo-nuvens {
+        min-height: 70vh;
+    }
+}
+
+@media screen and (max-width:1100px) {
+    .fundo-nuvens {
+        min-height: 68vh;
     }
 }
 
@@ -124,9 +167,23 @@ body {
     }
 }
 
+
+
+@media screen and (max-width:900px) and (max-height: 772px) {
+    .fundo-nuvens {
+        min-height: 56vh;
+    }
+}
+
 @media screen and (max-width:801px) and (max-height: 1281px) {
     .fundo-nuvens {
         min-height: 29vh;
+    }
+}
+
+@media screen and (max-width:801px) {
+    .fundo-nuvens {
+        min-height: 50vh;
     }
 }
 
@@ -136,9 +193,38 @@ body {
     }
 }
 
+@media screen and (max-width:770px) {
+    .fundo-nuvens {
+        min-height: 48vh;
+    }
+}
+
+@media screen and (max-width:750px) {
+    .fundo-nuvens {
+        min-height: 45vh;
+    }
+}
+@media screen and (max-width:700px) {
+    .fundo-nuvens {
+        min-height: 44vh;
+    }
+}
+
+@media screen and (max-width:695px) {
+    .fundo-nuvens {
+        min-height: 44vh;
+    }
+}
+
 @media screen and (max-width:690px) and (max-height: 1032px) {
     .fundo-nuvens {
         min-height: 31vh;
+    }
+}
+
+@media screen and (max-width:695px) {
+    .fundo-nuvens {
+        min-height: 42vh;
     }
 }
 
@@ -147,10 +233,56 @@ body {
         min-height: 29vh;
     }
 }
+@media screen and (max-width:595px) {
+    .fundo-nuvens {
+        min-height: 36vh;
+    }
+}
+
+@media screen and (max-width:580px) {
+    .fundo-nuvens {
+        min-height: 36vh;
+    }
+}
+@media screen and (max-width:546px) {
+    .fundo-nuvens {
+        min-height: 34vh;
+    }
+}
+
+@media screen and (max-width:530px) {
+    .fundo-nuvens {
+        min-height: 32vh;
+    }
+}
+
+
+@media screen and (max-width:481px) {
+    .fundo-nuvens {
+        min-height: 30vh;
+    }
+}
+@media screen and (max-width:420px) {
+    .fundo-nuvens {
+        min-height: 25vh;
+    }
+}
+@media screen and (max-width:415px){
+    .fundo-nuvens {
+        min-height: 25vh;
+    }
+}
+
 
 @media screen and (max-width:415px) and (max-height: 900px) {
     .fundo-nuvens {
         min-height: 21vh;
+    }
+}
+
+@media screen and (max-width:415px) and (max-height: 897px) {
+    .fundo-nuvens {
+        min-height: 22vh;
     }
 }
 
@@ -173,6 +305,8 @@ body {
     }
 }
 
+
+
 @media screen and (max-width:412px) and (max-height: 825px) {
     .fundo-nuvens {
         min-height: 23vh;
@@ -191,6 +325,12 @@ body {
     }
 }
 
+@media screen and (max-width:412px) {
+    .fundo-nuvens {
+        min-height: 25vh;
+    }
+}
+
 @media screen and (max-width:394px) and (max-height: 787px) {
     .fundo-nuvens {
         min-height: 23vh;
@@ -206,6 +346,11 @@ body {
 @media screen and (max-width:380px) and (max-height: 670px) {
     .fundo-nuvens {
         min-height: 26vh;
+    }
+}
+@media screen and (max-width:380px) {
+    .fundo-nuvens {
+        min-height: 24vh;
     }
 }
 

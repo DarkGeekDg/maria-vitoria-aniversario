@@ -40,14 +40,14 @@ window.addEventListener('scroll', () => {
     arcoIris.style.marginTop = valor * -0.5 + 'px';
 
     sol.style.left = valor * -0.2 + 'px';
-    //sol.style.marginTop = valor * 0.5 + 'px';
+    sol.style.marginTop = valor * 0.5 + 'px';
     sol_fundo.style.left = valor * -0.2 + 'px';
     sol_fundo.style.marginTop = valor * 0.5 + 'px';
 
     
     maria1.style.left = valor * -0.3 + 'px';
     maria2.style.left = valor * -0.3 + 'px';
-    maria3.style.left = valor * 0.3 + 'px';
+    maria3.style.left = valor * -0.3 + 'px';
     //maria3.style.marginTop = valor * 0.3 + 'px';
     maria4.style.left = valor * 0.3 + 'px';
 

@@ -1,5 +1,6 @@
 //sol e arco iris
 const sol = document.getElementById('sol');
+const sol_fundo = document.getElementById('sol-fundo');
 const arcoIris = document.getElementById('arco-iris');
 
 //nuvem da 3° camada 
@@ -36,14 +37,14 @@ window.addEventListener('scroll', () => {
 
     sol.style.left = valor * -0.2 + 'px';
     sol.style.marginTop = valor * 0.5 + 'px';
+    sol_fundo.style.left = valor * -0.2 + 'px';
+    sol_fundo.style.marginTop = valor * 0.5 + 'px';
 
-
-    maria1.style.left = valor * -0.1 + 'px';
-    maria2.style.left = valor * -0.1 + 'px';
+    
+    maria1.style.left = valor * -0.3 + 'px';
+    maria2.style.left = valor * -0.3 + 'px';
     maria3.style.left = valor * 0.3 + 'px';
     maria3.style.marginTop = valor * 0.3 + 'px';
     maria4.style.left = valor * 0.3 + 'px';
-
-
 
 })

@@ -29,7 +29,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color: #6BC7E2;
+    
 }
 
 
@@ -86,6 +86,7 @@ body {
     
 }
 
+/*
 
 @media screen and (max-width:1441px){
     .fundo-nuvens {
@@ -420,3 +421,4 @@ body {
         min-height: 7vh;
     }
 }
+*/

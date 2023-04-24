@@ -48,7 +48,7 @@ window.addEventListener('scroll', () => {
     maria1.style.left = valor * -0.3 + 'px';
     maria2.style.left = valor * -0.3 + 'px';
     maria3.style.left = valor * 0.3 + 'px';
-    maria3.style.marginTop = valor * 0.3 + 'px';
+    //maria3.style.marginTop = valor * 0.3 + 'px';
     maria4.style.left = valor * 0.3 + 'px';
 
 })

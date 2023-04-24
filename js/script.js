@@ -3,6 +3,10 @@ const sol = document.getElementById('sol');
 const sol_fundo = document.getElementById('sol-fundo');
 const arcoIris = document.getElementById('arco-iris');
 
+
+//fundo
+const background = document.getElementById('background');
+
 //nuvem da 3° camada 
 const nuvemFundo_fundo = document.getElementById('fundo-fundo');
 
@@ -27,7 +31,7 @@ window.addEventListener('scroll', () => {
     nuvemFrenteDireita.style.left = valor * 0.3 + 'px';
     nuvemFrenteEsquerda.style.left = valor * -0.3 + 'px';
 
-    nuvemFundo_fundo.style.marginTop = valor * 0.3 + 'px';
+    //nuvemFundo_fundo.style.marginTop = valor * 0.3 + 'px';
 
     nuvemFundoDireita.style.left = valor * 0.1 + 'px';
     nuvemFundoESquerda.style.left = valor * -0.1 + 'px';

@@ -8,7 +8,8 @@ const arcoIris = document.getElementById('arco-iris');
 const background = document.getElementById('background');
 
 //nuvem da 3° camada 
-const nuvemFundo_fundo = document.getElementById('fundo-fundo');
+const nuvemFundo_fundo2 = document.getElementById('fundo-fundo2');
+const nuvemFundo_fundo3 = document.getElementById('fundo-fundo3');
 
 //nuvens da 2° camada
 const nuvemFundoDireita = document.getElementById('nuvem-fundo-direita');
@@ -31,7 +32,8 @@ window.addEventListener('scroll', () => {
     nuvemFrenteDireita.style.left = valor * 0.3 + 'px';
     nuvemFrenteEsquerda.style.left = valor * -0.3 + 'px';
 
-    //nuvemFundo_fundo.style.marginTop = valor * 0.3 + 'px';
+    nuvemFundo_fundo2.style.left = valor * 0.1 + 'px';
+    nuvemFundo_fundo3.style.right = valor * 0.1 + 'px';
 
     nuvemFundoDireita.style.left = valor * 0.1 + 'px';
     nuvemFundoESquerda.style.left = valor * -0.1 + 'px';

@@ -40,7 +40,7 @@ window.addEventListener('scroll', () => {
     arcoIris.style.marginTop = valor * -0.5 + 'px';
 
     sol.style.left = valor * -0.2 + 'px';
-    sol.style.marginTop = valor * 0.5 + 'px';
+    //sol.style.marginTop = valor * 0.5 + 'px';
     sol_fundo.style.left = valor * -0.2 + 'px';
     sol_fundo.style.marginTop = valor * 0.5 + 'px';
 
